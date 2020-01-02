@@ -8,6 +8,7 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 )
 
+// DBConnection ..
 var DBConnection *sql.DB
 
 // Game ゲームソフトクラス
